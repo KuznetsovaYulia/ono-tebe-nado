@@ -40,7 +40,7 @@
   text-decoration: none;/*отменяем подчеркивание ссылки*/
 }
 
-.header__logo {/*контейнер логотипа*/  
+.header__logo {/*контейнер логотипа*/
   width: 148px;/*ширина элемента*/
   height: 105px;/*высота элемента*/
 }
@@ -56,7 +56,7 @@
 }
 
 .adress {/*контейнер с адресом*/
-  flex: 0 0 auto;/*заполняем доступное пространство*/  
+  flex: 0 0 auto;/*заполняем доступное пространство*/
   text-underline-position: under;/*линия располагается под текстом с дополнительным отступом*/
 }
 
@@ -70,14 +70,14 @@
 
 .cover__title {/*заголовок*/
   display: flex;/*преобразуем во флекс-контейнер*/
-  flex-direction: column;/* чтобы слова были друг под другом*/ 
+  flex-direction: column;/* чтобы слова были друг под другом*/
   gap: 10px;
   font-size: 100px;
   font-weight: 700px;
   letter-spacing: 0.3em;/*межбуквенное расстояние*/
   text-transform: uppercase;
 }
-.cover__description {/*контейнер для подзоголовка и кнопки*/  
+.cover__description {/*контейнер для подзоголовка и кнопки*/
   display: flex;/*преобразуем во флекс-контейнер*/
   margin-top: 120px;
   justify-content: end;
@@ -166,7 +166,7 @@
   font-weight: 400px; /*начертание шрифта*/
 }
 
-.card {/*Карточка*/  
+.card {/*Карточка*/
   width: 334px;/*ширина элемента*/
   height: 563px;/*высота элемента*/
   color: #FFFFFF;/*цвет шрифта*/
@@ -196,20 +196,20 @@
   text-decoration: none;/*убираем подчеркивание*/
 }
 
-.card .overlay { /*полупрозрачный блок поверх секции*/ 
+.card .overlay { /*полупрозрачный блок поверх секции*/
   display: flex;/*преобразуем во флекс-контейнер*/
   flex-direction: column;/* чтобы слова были друг под другом*/
   justify-content: space-between;
   padding: 50px 40px;/*подтянули текст карточки наверх*/
 }
 
-.card__title {/*заголовок карточки*/ 
+.card__title {/*заголовок карточки*/
   font-size: 22px;
   font-weight: 700px;
   text-transform: uppercase;
   text-decoration: underline;
 }
-.card__text {/*текст карточки*/ 
+.card__text {/*текст карточки*/
   font-size: 20px;
   font-weight: 400px;
 }
@@ -221,7 +221,7 @@
 }
 
 .about__column {/*класс для колонок*/
-  margin-top: 100px;/*внешний отступ сверху*/ 
+  margin-top: 100px;/*внешний отступ сверху*/
   padding-right: 20px;/*внутренний отступ справа*/
 }
 
@@ -229,7 +229,7 @@
   width: 240px;/*ширина элемента*/
   height: 240px;/*высота элемента*/
   background-color: #000000;
-  border-radius: 50%;/*скругление*/  
+  border-radius: 50%;/*скругление*/
   padding: 63px 46px;/*внутренние отступы*/
   margin-top: -90px;/*внешний отступ сверху*/
 }
@@ -248,7 +248,7 @@
 
 .about__text {/*блок для текстов секции*/
   display: flex;/*преобразуем во флекс-контейнер*/
-  flex-direction: column;/* чтобы слова были друг под другом*/ 
+  flex-direction: column;/* чтобы слова были друг под другом*/
   gap: 25px;/* отступ*/
   margin-top: 100px; /*внешний отступ сверху*/
   font-size: 20px; /*размер шрифта*/
@@ -264,7 +264,7 @@
   font-weight: 400; /* начертание шрифта*/
 }
 
-.footer__address {  
+.footer__address {
   width: 240.52px;/* ширина элемента*/
   height: 98px;/*высота элемента*/
   padding: 10px;/*внутренний отступ*/
@@ -272,7 +272,7 @@
 
 .footer__menu {/*блок навигации по списку ссылок*/
   display: flex; /*преобразуем во флекс-контейнер*/
-  flex-direction: column; /* чтобы слова были друг под другом*/ 
+  flex-direction: column; /* чтобы слова были друг под другом*/
   align-items: center; /*по центру*/
   flex: 0 0 auto;/*заполняем доступное пространство*/
   width: 149px; /* ширина элемента*/
@@ -296,7 +296,7 @@
   display: flex; /*преобразуем во флекс-контейнер*/
   flex: 0 0 auto;/*заполняем доступное пространство*/
   gap: 48px; /*отступ между значками*/
-  justify-content: end; /*прижимаем элементы к краю*/  
+  justify-content: end; /*прижимаем элементы к краю*/
   width: 400px;/* ширина элемента*/
   list-style: none; /*убираем пункты списка*/
 }
