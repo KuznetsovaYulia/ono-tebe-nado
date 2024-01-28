@@ -43,7 +43,7 @@
 .header__logo {/*контейнер логотипа*/  
   width: 148px;/*ширина элемента*/
   height: 105px;/*высота элемента*/
- }
+}
  
  .header__logo-image {/*картинка с логотипом*/
   width: 129.11px;/*ширина элемента*/
@@ -77,7 +77,6 @@
   letter-spacing: 0.3em;/*межбуквенное расстояние*/
   text-transform: uppercase;
 }
-
 .cover__description {/*контейнер для подзоголовка и кнопки*/  
   display: flex;/*преобразуем во флекс-контейнер*/
   margin-top: 120px;
@@ -88,7 +87,7 @@
 .cover__description-text {/*текст подзоголовка*/
   padding-right: 100px;
   font-size: 22px;/*размер шрифта*/
-  font-weight: 400;/*начертание шрифта*/  
+  font-weight: 400;/*начертание шрифта*/
   line-height: 28px;/*интерлиньяж*/
   text-align: end;/*по противоположному краю для текущего языка*/
   word-spacing: 17px;/*интервал между словами*/
@@ -107,7 +106,7 @@
 }
 
 .aligned-text_center {
-  width: 100%;  
+  width: 100%;
   text-align: center;/*выравнивание по центру*/
 }
 
@@ -128,7 +127,7 @@
   font-weight: 400px;
   text-transform: uppercase;
   background: transparent;/*прозрачный*/
-  border: 1px solid #fff;  
+  border: 1px solid #fff;
   color: #fff;/*цвет шрифта*/
 }
 
@@ -140,14 +139,14 @@
   margin: 0px 0 30px 0px;
   text-align: left;
   font-size: 40px;
-  font-weight: 700;/*начертание шрифта*/ 
+  font-weight: 700;/*начертание шрифта*/
   text-transform: uppercase;
 }
 
 .lots__card-list {/*список карточек*/
   display: flex;/*преобразуем во флекс-контейнер*/
-  flex-wrap: nowrap; 
-  justify-content: center; 
+  flex-wrap: nowrap;
+  justify-content: center;
   list-style: none;
 }
 
@@ -199,8 +198,8 @@
 
 .card .overlay { /*полупрозрачный блок поверх секции*/ 
   display: flex;/*преобразуем во флекс-контейнер*/
-  flex-direction: column;/* чтобы слова были друг под другом*/ 
-  justify-content: space-between;  
+  flex-direction: column;/* чтобы слова были друг под другом*/
+  justify-content: space-between;
   padding: 50px 40px;/*подтянули текст карточки наверх*/
 }
 
@@ -210,7 +209,6 @@
   text-transform: uppercase;
   text-decoration: underline;
 }
-
 .card__text {/*текст карточки*/ 
   font-size: 20px;
   font-weight: 400px;
