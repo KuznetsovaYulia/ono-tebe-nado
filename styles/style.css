@@ -1,1 +1,309 @@
-/* место для вашего кода */
+/*шапка*/
+.header {
+  display: flex; /*преобразуем во флекс-контейнер*/
+  flex-wrap: nowrap;/*в один ряд и не переносятся на новую строку, даже если не влезают в размеры родителя*/
+  justify-content: space-between; /*элементы выравниваем по главной оси*/
+  align-items: center; /*выровниваем элементы по центру*/
+  width: 1052px;/*ширина элемента*/
+  height: 105px;/*высота элемента*/
+  margin: 92px 24px; /*внутренние отступы*/
+  font-size: 18px; /*размер шрифта*/
+  font-weight: 400; /*начертание шрифта*/
+  color:#000000;/*цвет шрифта*/
+}
+
+.header_menu {/*контейнер навигации*/
+  flex: 0 0 auto;/*заполняем доступное пространство*/
+  margin-right: 25px;/*внешний отступ справа*/
+  width: 391.48px;/*ширина элемента*/
+  height: 22px;/*высота элемента*/
+ }
+
+.header__link {/*ссылка*/
+  text-underline-position: under;/*линия под текстом*/
+}
+
+.header__links-list {/*список ссылок*/
+  display: flex;/*преобразуем во флекс-контейнер*/
+  gap: 32px;/*отступ между словами*/
+}
+
+.header__links-list-item {/*пункт списка ссылок*/
+  list-style: circle;/*маркер кружок*/  
+}
+
+.header__links-list-item_no-bullit {/*для ссылки без кружка*/
+  list-style: none;/*отменяем маркер*/
+}
+
+.header__link_active {/*активная ссылка*/
+  text-decoration: none;/*отменяем подчеркивание ссылки*/
+}
+
+.header__logo {/*контейнер логотипа*/  
+  width: 148px;/*ширина элемента*/
+  height: 105px;/*высота элемента*/
+ }
+
+.header__logo-image {/*картинка с логотипом*/
+  width: 129.11px;/*ширина элемента*/
+  height: 104.65px;/*высота элемента*/
+}
+
+.header__adress {/*для выравнивания блока с адресом*/
+  margin-left: 200px;/*внешний отступ слева*/
+  padding: 40px;/*внутренний отступ*/
+}
+
+.adress {/*контейнер с адресом*/
+  flex: 0 0 auto;/*заполняем доступное пространство*/  
+  text-underline-position: under;/*линия располагается под текстом с дополнительным отступом*/
+}
+
+/* первая секция */
+.cover {
+  background: url("../images/cover.jpg");/*картинка для фона*/
+  background-position: center;/*по центру*/
+  background-size: cover;/*картинка растянится на 100% ширины родителя*/
+  color: #fff; /*цвет шрифта в трех карточках*/
+}
+
+.cover__title {/*заголовок*/
+  display: flex;/*преобразуем во флекс-контейнер*/
+  flex-direction: column;/* чтобы слова были друг под другом*/ 
+  gap: 10px;
+  font-size: 100px;
+  font-weight: 700px;
+  letter-spacing: 0.3em;/*межбуквенное расстояние*/
+  text-transform: uppercase;  
+}
+
+.cover__description {/*контейнер для подзоголовка и кнопки*/  
+  display: flex;/*преобразуем во флекс-контейнер*/
+  margin-top: 120px;
+  justify-content: end;
+  align-items: center;
+}
+
+.cover__description-text {/*текст подзоголовка*/
+  padding-right: 100px;
+  font-size: 22px;/*размер шрифта*/
+  font-weight: 400;/*начертание шрифта*/  
+  line-height: 28px;/*интерлиньяж*/
+  text-align: end;/*по противоположному краю для текущего языка*/
+  word-spacing: 17px;/*интервал между словами*/
+  text-transform: uppercase;/*буквы все заглавные*/  
+}
+
+.overlay {/* полупрозрачный блок поверх секции */
+  height: inherit;
+  padding: 165px 50px 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*классы для выравнивания строк текста и превращения их в блочный элемент*/
+.aligned-text_left {
+  text-align: left;/*выравнивание по левому краю*/
+}
+
+.aligned-text_center {
+  width: 100%;  
+  text-align: center;/*выравнивание по центру*/
+}
+
+.aligned-text_right {
+  text-align: right;/*выравнивание по правому краю*/
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;/*межбуквенное расстояние*/
+}
+.no-letter-spacing {
+  letter-spacing: 0;/*межбуквенное расстояние*/
+}
+
+.bet-button { /*Кнопка*/
+  padding: 12px 32px;
+  font-size: 22px;
+  font-weight: 400px;
+  text-transform: uppercase;
+  background: transparent;/*прозрачный*/
+  border: 1px solid #fff;  
+  color: #fff;/*цвет шрифта*/  
+}
+
+.lots {/* секция с карточками */
+  padding: 180px 50px;
+}
+
+.lots__heading {/*заголовок секции*/
+  margin: 0px 0 30px 0px;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;/*начертание шрифта*/ 
+  text-transform: uppercase;
+}
+
+.lots__card-list {/*список карточек*/
+  display: flex;/*преобразуем во флекс-контейнер*/
+  flex-wrap: nowrap; 
+  justify-content: center; 
+  list-style: none; 
+}
+
+.lots__card-list-item {/*пункт списка карточки*/
+  min-width: 358px;
+  margin-bottom: 25px; 
+ }
+
+.lots__look-more-link {/*ссылка_посмотреть больше*/
+  width: 192px;/*ширина элемента*/
+  height: 25px;/*высота элемента*/
+  text-decoration:none;/*убираем подчеркивание*/
+  border-bottom: 1px solid #000000;/*линия под текстом*/
+  text-transform: lowercase;/*все буквы будут преобразованы в строчные, маленькие*/
+  margin-left: 10px;/*внешний отступ слева*/
+  font-size: 20px;/*размер шрифта*/
+  font-weight: 400px; /*начертание шрифта*/
+}
+
+.card {/*Карточка*/  
+  width: 334px;/*ширина элемента*/
+  height: 563px;/*высота элемента*/
+  color: #FFFFFF;/*цвет шрифта*/
+}
+
+/*классы для изменения фона*/
+.card_type_film {
+  background: url(../images/card-lot-01.jpg);
+  background-position: center;/*по центру*/
+  background-size: cover;/*картинка растянется на 100% ширины родителя*/
+}
+
+.card_type_book {
+  background: url(../images/card-lot-02.jpg);
+  background-position: center;/*по центру*/
+  background-size: cover;/*картинка растянется на 100% ширины родителя*/
+}
+
+.card_type_picture {
+  background: url(../images/card-lot-03.jpg);
+  background-position: center;/*по центру*/
+  background-size: cover;/*картинка растянется на 100% ширины родителя*/
+}
+
+.card-link {/* ссылка, обрамляющая карточку*/
+  height: 100%;/*высота элемента*/
+  text-decoration: none;/*убираем подчеркивание*/
+}
+
+.card .overlay { /*полупрозрачный блок поверх секции*/ 
+  display: flex;/*преобразуем во флекс-контейнер*/
+  flex-direction: column;/* чтобы слова были друг под другом*/ 
+  justify-content: space-between;  
+  padding: 50px 40px;/*подтянули текст карточки наверх*/ 
+}
+
+.card__title {/*заголовок карточки*/ 
+  font-size: 22px;
+  font-weight: 700px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.card__text {/*текст карточки*/ 
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.about {/* секция с информацией об аукционе*/
+  display: flex;/*преобразуем во флекс-контейнер*/
+  gap: 25px;/* отступ*/
+  padding: 0 50px 182px 50px;/* внутренние отступы*/ 
+}
+
+.about__column {/*класс для колонок*/
+  margin-top: 100px;/*внешний отступ сверху*/ 
+  padding-right: 20px;/*внутренний отступ справа*/ 
+}
+
+.about__logo {/*контейнер с логотипом*/
+  width: 240px;/*ширина элемента*/
+  height: 240px;/*высота элемента*/
+  background-color: #000000;
+  border-radius: 50%;/*скругление*/  
+  padding: 63px 46px;/*внутренние отступы*/
+  margin-top: -90px;/*внешний отступ сверху*/
+}
+
+.about__logo-image {/*изображение логотипа*/
+  width: 148px;/*ширина элемента*/
+  height: 114px;/*высота элемента*/
+}
+
+.about__title {/*заголовок секции*/
+  font-size: 40px; /*размер шрифта */
+  font-weight: 700; /*начертание шрифта*/
+  text-transform: uppercase; /*все буквы заглавные*/
+  color: #000000; /*цвет шрифта*/
+}
+
+.about__text {/*блок для текстов секции*/
+  display: flex;/*преобразуем во флекс-контейнер*/
+  flex-direction: column;/* чтобы слова были друг под другом*/ 
+  gap: 25px;/* отступ*/
+  margin-top: 100px; /*внешний отступ сверху*/
+  font-size: 20px; /*размер шрифта*/
+  font-weight: 400; /*начертание шрифта*/
+  color: #000000; /*цвет шрифта*/
+}
+
+/* Подвал */
+.footer {
+  display: flex; /*преобразуем во флекс-контейнер*/
+  justify-content: space-between;/*элементы выравниваем по главной оси*/
+  font-size: 18px; /* размер шрифта*/
+  font-weight: 400; /* начертание шрифта*/
+}
+
+.footer__address {  
+  width: 240.52px;/* ширина элемента*/
+  height: 98px;/*высота элемента*/
+  padding: 10px;/*внутренний отступ*/
+}
+
+.footer__menu {/*блок навигации по списку ссылок*/
+  display: flex; /*преобразуем во флекс-контейнер*/
+  flex-direction: column; /* чтобы слова были друг под другом*/ 
+  align-items: center; /*по центру*/
+  flex: 0 0 auto;/*заполняем доступное пространство*/
+  width: 149px; /* ширина элемента*/
+  height: 64px;/* высота элемента*/  
+}
+
+.footer__menu-list {/*список пунктов меню*/
+  text-align: center; /* текст по центру*/
+  list-style: none; /*без маркера*/  
+}
+
+.footer__menu-link { /*ссылка меню*/
+  text-underline-position: under; /*линия под текстом*/
+}
+
+.footer__menu-link_active { /*активная ссылка меню*/
+  text-decoration: none; /*убираем подчёркивание ссылки*/
+}
+
+.footer__social-list {/* список ссылок на соцсети*/
+  display: flex; /*преобразуем во флекс-контейнер*/
+  flex: 0 0 auto;/*заполняем доступное пространство*/
+  gap: 48px; /*отступ между значками*/
+  justify-content: end; /*прижимаем элементы к краю*/  
+  width: 400px;/* ширина элемента*/
+  list-style: none; /*убираем пункты списка*/    
+}
+
+.footer__social-icon {/*иконка социальной сети*/
+  width: 48px;/* ширина элемента*/
+  height: 48px;/*высота элемента*/
+}
