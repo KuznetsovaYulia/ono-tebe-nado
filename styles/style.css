@@ -47,7 +47,7 @@
 }
 
 /*контейнер логотипа*/
-.header__logo {  
+.header__logo {
   width: 148px;
   height: 105px;
 }
@@ -95,7 +95,7 @@
 
 /*контейнер для подзоголовка и кнопки*/
 .cover__description {
-  display: flex;  
+  display: flex;
   justify-content: end;
   align-items: center;
   margin-top: 128px;
@@ -146,7 +146,7 @@
 }
 
 /*Кнопка*/
-.bet-button { 
+.bet-button {
   padding: 12px 32px;
   font-size: 22px;
   font-weight: 400;
