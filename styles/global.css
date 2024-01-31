@@ -5,9 +5,9 @@
 }
 
 body {
-  width: 1100px; /* ширина*/
-  margin: 0 auto;/*внешние отступы*/
-  font-family: Raleway, sans-serif; /* преобладающий шрифт для всего тела документа/альтернативный шрифт*/
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
 }
 
 h1,
@@ -21,14 +21,14 @@ ul,
 ol,
 li,
 blockquote {
-  margin: 0;/*внешние отступы*/
-  padding: 0;/*внутренние отступы*/
+  margin: 0;
+  padding: 0;
 }
 
-a { /*ссылка*/
-color: inherit; /*цвет ссылки от ближайшего родительского элемента*/
+a {
+color: inherit;
 }
 
-img { /*картинка*/
-  width: 100%; /*ширина родителя у картинок*/
+img {
+  width: 100%;
 }
