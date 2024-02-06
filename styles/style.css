@@ -1,6 +1,6 @@
 /*шапка*/
 .header {
-  width: 1052px;
+  min-height: 105px;
   margin: 92px 24px 96px;
   display: flex;
   flex-wrap: nowrap;
@@ -14,9 +14,8 @@
 /*контейнер навигации*/
 .header_menu {
   width: 391.48px;
-  margin: 44px 36px 39px 26.52px;
+  margin: 44px 37px 39px 27px;
   flex: 0 0 auto;
-  line-height: 21.13px;
 }
 
 /*ссылка*/
@@ -27,7 +26,7 @@
 /*список ссылок*/
 .header__links-list {
   display: flex;
-  gap: 33px;
+  gap: 32px;
 }
 
 /*пункт списка ссылок*/
@@ -59,12 +58,12 @@
 
 /*для выравнивания блока с адресом*/
 .header__address {
-  width: 240.52px;
-  margin: 5px 25.48px 2px 184px;
+  width: 240px;
+  margin: 5px 25.5px 2px 183px;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
-  line-height: 24.3px;
+  line-height: 23px;
 }
 
 /*контейнер с адресом*/
@@ -86,7 +85,7 @@
 
 /*заголовок*/
 .cover__title {
-  margin: 165px 50px 130px;
+  margin: 165px 50px 135px 50px;
   display: flex;
   flex-direction: column;
   font-size: 100px;
@@ -105,8 +104,8 @@
 /*текст подзоголовка*/
 .cover__description-text {
   margin-left: 28px;
-  margin-right: 82px;
-  margin-bottom: 60px;
+  margin-right: 79px;
+  margin-bottom: 52px;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
@@ -119,6 +118,7 @@
 .overlay {
   width: inherit;
   min-height: inherit;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -136,14 +136,15 @@
 .aligned-text_center {
  
   display: block;
+  padding-right: 27px;
   box-sizing: content-box;
-  padding-top: 10px;
-  padding-right: 30px;
+
   text-align: center;
 }
 
 .aligned-text_right {
   text-align: right;
+ 
   letter-spacing: 0.3em;
 }
 
@@ -159,11 +160,10 @@
 .bet-button {
   margin-right: 50px;
   margin-bottom: 51px;
-  padding: 12px 32px 11px 31px;
+  padding: 12px 32px;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 500;
-  line-height: 25.83px;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
@@ -175,7 +175,7 @@
 /*секция с карточками*/
 .lots {
   width: 1052px;
-  margin: 184px 24px 146px;
+  margin: 179px 24px 146px;
 }
 
 /*заголовок секции*/
@@ -184,7 +184,6 @@
   margin-bottom: 27px;
   font-size: 40px;
   font-weight: 700;
-  line-height: 40.96px;
   text-transform: uppercase;
 }
 
@@ -207,7 +206,7 @@
 .lots__look-more-link {
   display: flex;
   width: 192px;
-  margin-top: 31px;
+  margin-top: 30px;
   margin-left: 40px;
   text-decoration: none;
   border-bottom: 1px solid #000;
@@ -279,7 +278,7 @@
 /*класс для колонок*/
 .about__column {
   width: 693px;
-  padding-top: 5px;
+  padding-top: 3px;
   margin-left: 34px;
   display: flex;
   flex-direction: column;
@@ -291,8 +290,8 @@
 .about__logo {
   width: 240px;
   height: 240px;
-  padding: 65px 46px;
-  margin-top: 32px;
+  padding: 63px 46px;
+  margin-top: 35px;
   margin-left: 37px;
   display: grid;
   border-radius: 50%;
@@ -309,7 +308,7 @@
 /*заголовок секции*/
 .about__title {
   width: 291px;
-  margin-top: 134px;
+  margin-top: 136px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -331,7 +330,7 @@
 
 /* Подвал */
 .footer {
-  margin: 180px 50px 88px 50px;
+  margin: 180px 50px 88px;
   display: flex;
   justify-content: space-between;
   font-size: 18px;
