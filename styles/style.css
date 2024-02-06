@@ -14,9 +14,9 @@
 /*контейнер навигации*/
 .header_menu {
   width: 391.48px;
-  margin: 44px 36px 40px 27px;
+  margin: 44px 36px 39px 26.52px;
   flex: 0 0 auto;
-  line-height: 21px;
+  line-height: 21.13px;
 }
 
 /*ссылка*/
@@ -59,7 +59,7 @@
 
 /*для выравнивания блока с адресом*/
 .header__address {
-  width: 240px;
+  width: 240.52px;
   margin: 5px 25.48px 2px 184px;
   font-size: 18px;
   font-weight: 400;
@@ -75,6 +75,7 @@
 
 /* первая секция */
 .cover {
+  width: 1100px;
   min-height: 757px;
   position: relative;
   background: url("../images/cover.jpg");
@@ -85,7 +86,7 @@
 
 /*заголовок*/
 .cover__title {
-  margin: 163px 50px 129px 50px;
+  margin: 165px 50px 130px;
   display: flex;
   flex-direction: column;
   font-size: 100px;
@@ -96,9 +97,6 @@
 
 /*контейнер для подзоголовка и кнопки*/
 .cover__description {
-  margin-left: 78px;
-  margin-right: 50px;
-  margin-bottom: 50px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -106,7 +104,9 @@
 
 /*текст подзоголовка*/
 .cover__description-text {
-  margin-right: 81px;
+  margin-left: 28px;
+  margin-right: 82px;
+  margin-bottom: 60px;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
@@ -117,7 +117,8 @@
 
 /*полупрозрачный блок поверх секции */
 .overlay {
-  min-height: 563px;
+  width: inherit;
+  min-height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -133,10 +134,11 @@
 }
 
 .aligned-text_center {
-  padding-top: 8px;
-  padding-right: 30px;
+ 
   display: block;
   box-sizing: content-box;
+  padding-top: 10px;
+  padding-right: 30px;
   text-align: center;
 }
 
@@ -155,6 +157,8 @@
 
 /*Кнопка*/
 .bet-button {
+  margin-right: 50px;
+  margin-bottom: 51px;
   padding: 12px 32px 11px 31px;
   font-family: Raleway, sans-serif;
   font-size: 22px;
@@ -171,15 +175,13 @@
 /*секция с карточками*/
 .lots {
   width: 1052px;
-  height: inherit;
-  margin: 184px 24px 146px 24px;
+  margin: 184px 24px 146px;
 }
 
 /*заголовок секции*/
 .lots__heading {
-  width: 121px;
   margin-left: 40px;
-  margin-bottom: 26px;
+  margin-bottom: 27px;
   font-size: 40px;
   font-weight: 700;
   line-height: 40.96px;
@@ -197,7 +199,6 @@
 /*пункт списка карточки*/
 .lots__card-list-item {
   width: 334px;
-  min-height: 563px;
   display: flex;
   flex-grow: 1;
 }
@@ -208,7 +209,7 @@
   width: 192px;
   margin-top: 31px;
   margin-left: 40px;
-  text-decoration:none;
+  text-decoration: none;
   border-bottom: 1px solid #000;
   text-transform: lowercase;
   font-size: 20px;
@@ -245,8 +246,7 @@
 
 /*заголовок карточки*/
 .card__title {
-  width: 254px;
-  margin-top: 51px;
+  padding-top: 51px;
   margin-left: 40px;
   margin-right: 40px;
   font-size: 22px;
@@ -257,7 +257,6 @@
 
 /*текст карточки*/
 .card__text {
-  width: 254px;
   margin-right: 40px;
   margin-left: 40px;
   margin-bottom: 48px;
@@ -280,7 +279,7 @@
 /*класс для колонок*/
 .about__column {
   width: 693px;
-  padding-top: 3px;
+  padding-top: 5px;
   margin-left: 34px;
   display: flex;
   flex-direction: column;
@@ -310,7 +309,7 @@
 /*заголовок секции*/
 .about__title {
   width: 291px;
-  margin-top: 137px;
+  margin-top: 134px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -326,6 +325,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
+  letter-spacing: 1%;
   color: #000;
 }
 
