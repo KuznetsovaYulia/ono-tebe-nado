@@ -14,7 +14,7 @@
 /*контейнер навигации*/
 .header_menu {
   width: 391.48px;
-  margin: 44px 37px 39px 27px;
+  margin: 44px 36px 39px 25px;
   flex: 0 0 auto;
 }
 
@@ -59,7 +59,7 @@
 /*для выравнивания блока с адресом*/
 .header__address {
   width: 240px;
-  margin: 5px 25px 2px 182px;
+  margin: 5px 25px 2px 184px;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
