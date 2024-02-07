@@ -1,6 +1,5 @@
 /*шапка*/
 .header {
-  min-height: 105px;
   margin: 92px 24px 96px;
   display: flex;
   flex-wrap: nowrap;
@@ -74,28 +73,42 @@
 
 /* первая секция */
 .cover {
-  width: 1100px;
-  min-height: 757px;
   position: relative;
+  padding: 161px 50px 51px 50px;
   background: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
-  color: #fff;
+}
+
+/*полупрозрачный блок поверх секции */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.6;
+  background-color:#000;
 }
 
 /*заголовок*/
 .cover__title {
-  margin: 165px 50px 135px 50px;
+  position: relative;
   display: flex;
+  z-index: 1;
   flex-direction: column;
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 0.3em;
   text-transform: uppercase;
+  color: #fff;
 }
 
 /*контейнер для подзоголовка и кнопки*/
 .cover__description {
+  position: relative;
+  z-index: 1;
+  margin-top: 127px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -105,25 +118,13 @@
 .cover__description-text {
   margin-left: 28px;
   margin-right: 79px;
-  margin-bottom: 52px;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
   text-align: end;
   word-spacing: 18px;
   text-transform: uppercase;
-}
-
-/*полупрозрачный блок поверх секции */
-.overlay {
-  width: inherit;
-  min-height: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: absolute;
-  background: #000;
-  opacity: 0.6;
+  color: #FFF;
 }
 
 /*классы для выравнивания строк текста и превращения их в блочный элемент*/
@@ -133,17 +134,16 @@
 }
 
 .aligned-text_center {
- 
+  padding-top: 10px;
+  padding-right: 30px;
   display: block;
-  padding-right: 27px;
   box-sizing: content-box;
-
   text-align: center;
 }
 
 .aligned-text_right {
   text-align: right;
- 
+  padding-top: 1px;
   letter-spacing: 0.3em;
 }
 
@@ -157,9 +157,7 @@
 
 /*Кнопка*/
 .bet-button {
-  margin-right: 50px;
-  margin-bottom: 51px;
-  padding: 12px 32px;
+  padding: 11px 32px;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 500;
@@ -173,8 +171,7 @@
 
 /*секция с карточками*/
 .lots {
-  width: 1052px;
-  margin: 179px 24px 146px;
+  margin: 178px 24px 148px;
 }
 
 /*заголовок секции*/
@@ -196,29 +193,34 @@
 
 /*пункт списка карточки*/
 .lots__card-list-item {
-  width: 334px;
+  height: 100%;
   display: flex;
   flex-grow: 1;
 }
 
 /*ссылка_посмотреть больше*/
 .lots__look-more-link {
-  display: flex;
+  display: block;
   width: 192px;
-  margin-top: 30px;
+  margin-top: 29px;
   margin-left: 40px;
   text-decoration: none;
   border-bottom: 1px solid #000;
   text-transform: lowercase;
   font-size: 20px;
   font-weight: 400;
-  line-height: 23.48px;
+  line-height: 23px;
 }
 
 /*Карточка*/
-.card {
+.card { 
+  padding: 50px 40px 48px;
+  position: relative;
   width: 334px;
-  min-height: 563px;
+  height: 563px;/*точное значение высоты (как нельзя делать). для отступов в карточке между заголовком и текстом чтобы сработало align-items.*/
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
   color: #FFF;
 }
 
@@ -244,20 +246,21 @@
 
 /*заголовок карточки*/
 .card__title {
-  padding-top: 51px;
-  margin-left: 40px;
-  margin-right: 40px;
+  height: 100%;
+  z-index: 1;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: underline;
+  line-height: 26px;
 }
 
 /*текст карточки*/
 .card__text {
-  margin-right: 40px;
-  margin-left: 40px;
-  margin-bottom: 48px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  z-index: 1;
   text-decoration: none;
   font-size: 20px;
   font-weight: 400;
@@ -269,7 +272,6 @@
   width: 1052px;
   display: grid;
   grid-template-columns: 351px 701px;
-  grid-template-rows: 283px 312px;
   grid-row: 1/3;
   align-self: start;
 }
@@ -290,8 +292,8 @@
   width: 240px;
   height: 240px;
   padding: 63px 46px;
-  margin-top: 35px;
-  margin-left: 35px;
+  margin-top: 32px;
+  margin-left: 37px;
   display: grid;
   border-radius: 50%;
   align-content: space-between;
@@ -307,7 +309,7 @@
 /*заголовок секции*/
 .about__title {
   width: 291px;
-  margin-top: 136px;
+  margin-top: 134px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -323,7 +325,6 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 1%;
   color: #000;
 }
 
