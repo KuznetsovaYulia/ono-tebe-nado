@@ -14,7 +14,7 @@
 /*контейнер навигации*/
 .header_menu {
   width: 393px;
-  margin: 44px 36px 39px 26px;
+  margin: 44px 36px 39px 25px;
   flex: 0 0 auto;
 }
 
@@ -75,7 +75,7 @@
 .cover {
   width: 1100px;
   position: relative;
-  padding: 165px 50px 50px 49px;
+  padding: 165px 50px 50px 50px;
   background: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -109,7 +109,7 @@
 .cover__description {
   position: relative;
   z-index: 1;
-  margin-top: 127px;
+  margin-top: 135px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -134,8 +134,7 @@
 }
 
 .aligned-text_center {
-  padding-top: 10px;
-  padding-right: 30px;
+  padding-right: 27px;
   display: block;
   box-sizing: content-box;
   text-align: center;
@@ -157,7 +156,7 @@
 
 /*Кнопка*/
 .bet-button {
-  padding: 11px 31px;
+  padding: 12px 32px;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 500;
@@ -177,7 +176,7 @@
 /*заголовок секции*/
 .lots__heading {
   margin-left: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 27px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -202,19 +201,19 @@
 .lots__look-more-link {
   display: block;
   width: 192px;
-  margin-top: 32px;
+  margin-top: 30px;
   margin-left: 40px;
   text-decoration: none;
   border-bottom: 1px solid #000;
   text-transform: lowercase;
   font-size: 20px;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 23.48px;
 }
 
 /*Карточка*/
 .card {
-  padding: 50px 40px 48px;
+  padding: 51px 40px 48px;
   position: relative;
   width: 334px;
   height: 563px;/*точное значение высоты (как нельзя делать). для отступов в карточке между заголовком и текстом чтобы сработало align-items.*/
@@ -272,7 +271,7 @@
   margin-left: 24px;
   margin-right: 24px;
   display: grid;
-  grid-template-columns: 359px 693px;
+  grid-template-columns: 351px 701px;
   grid-template-rows: auto;
 }
 
@@ -286,12 +285,13 @@
 
 /*контейнер с логотипом*/
 .about__logo {
+  padding: 63px 46px;
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 72px;
   width: 240px;
   height: 240px;
-  margin-top: 30px;
-  padding: 63px 46px;
-  margin-left: 47px;
-  margin-right: 72px;
+  
   border-radius: 50%;
   background-color: #000;
 }
@@ -303,7 +303,7 @@
 
 /*заголовок секции*/
 .about__title {
-  margin-top: 133px;
+  margin-top: 136px;
   width: 291px;
   font-size: 40px;
   font-weight: 700;
