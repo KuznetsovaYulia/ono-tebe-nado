@@ -1,6 +1,7 @@
 /*шапка*/
 .header {
-  margin: 91px 24px 96px;
+  width: 1052px;
+  margin: 92px 24px 96px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -72,8 +73,9 @@
 
 /* первая секция */
 .cover {
+  width: 1100px;
   position: relative;
-  padding: 164px 50px 51px 50px;
+  padding: 165px 50px 50px 49px;
   background: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -107,7 +109,7 @@
 .cover__description {
   position: relative;
   z-index: 1;
-  margin-top: 128px;
+  margin-top: 127px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -115,7 +117,6 @@
 
 /*текст подзоголовка*/
 .cover__description-text {
-  margin-left: 28px;
   margin-right: 79px;
   font-size: 22px;
   font-weight: 400;
@@ -156,7 +157,7 @@
 
 /*Кнопка*/
 .bet-button {
-  padding: 11px 32px;
+  padding: 11px 31px;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 500;
@@ -170,13 +171,13 @@
 
 /*секция с карточками*/
 .lots {
-  margin: 180px 24px 146px;
+  margin: 179px 24px 146px;
 }
 
 /*заголовок секции*/
 .lots__heading {
   margin-left: 40px;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -201,7 +202,7 @@
 .lots__look-more-link {
   display: block;
   width: 192px;
-  margin-top: 30px;
+  margin-top: 32px;
   margin-left: 40px;
   text-decoration: none;
   border-bottom: 1px solid #000;
@@ -287,7 +288,7 @@
 .about__logo {
   width: 240px;
   height: 240px;
-  margin-top: 37px;
+  margin-top: 30px;
   padding: 63px 46px;
   margin-left: 47px;
   margin-right: 72px;
@@ -302,7 +303,7 @@
 
 /*заголовок секции*/
 .about__title {
-  margin-top: 139px;
+  margin-top: 133px;
   width: 291px;
   font-size: 40px;
   font-weight: 700;
@@ -326,7 +327,7 @@
 
 /* Подвал */
 .footer {
-  margin: 169px 50px 88px;
+  margin: 168px 50px 88px;
   display: flex;
   justify-content: space-between;
   font-size: 18px;
