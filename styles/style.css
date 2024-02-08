@@ -1,5 +1,6 @@
 /*шапка*/
 .header {
+  width: 1052px;
   margin: 92px 24px 96px;
   display: flex;
   flex-wrap: nowrap;
@@ -57,7 +58,6 @@
 
 /*для выравнивания блока с адресом*/
 .header__address {
-  width: 240px;
   margin: 5px 25px 2px 184px;
   font-size: 18px;
   font-weight: 400;
@@ -73,8 +73,9 @@
 
 /* первая секция */
 .cover {
+  width: 1100px;
   position: relative;
-  padding: 161px 50px 51px 50px;
+  padding: 165px 50px 50px 50px;
   background: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -108,7 +109,7 @@
 .cover__description {
   position: relative;
   z-index: 1;
-  margin-top: 127px;
+  margin-top: 135px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -116,7 +117,6 @@
 
 /*текст подзоголовка*/
 .cover__description-text {
-  margin-left: 28px;
   margin-right: 79px;
   font-size: 22px;
   font-weight: 400;
@@ -134,8 +134,7 @@
 }
 
 .aligned-text_center {
-  padding-top: 10px;
-  padding-right: 30px;
+  padding-right: 27px;
   display: block;
   box-sizing: content-box;
   text-align: center;
@@ -143,7 +142,7 @@
 
 .aligned-text_right {
   text-align: right;
-  padding-top: 1px;
+  padding-top: 2px;
   letter-spacing: 0.3em;
 }
 
@@ -157,7 +156,7 @@
 
 /*Кнопка*/
 .bet-button {
-  padding: 11px 32px;
+  padding: 12px 32px;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 500;
@@ -171,7 +170,7 @@
 
 /*секция с карточками*/
 .lots {
-  margin: 178px 24px 148px;
+  margin: 179px 24px 146px;
 }
 
 /*заголовок секции*/
@@ -202,19 +201,19 @@
 .lots__look-more-link {
   display: block;
   width: 192px;
-  margin-top: 29px;
+  margin-top: 30px;
   margin-left: 40px;
   text-decoration: none;
   border-bottom: 1px solid #000;
   text-transform: lowercase;
   font-size: 20px;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 23.48px;
 }
 
 /*Карточка*/
-.card { 
-  padding: 50px 40px 48px;
+.card {
+  padding: 51px 40px 48px;
   position: relative;
   width: 334px;
   height: 563px;/*точное значение высоты (как нельзя делать). для отступов в карточке между заголовком и текстом чтобы сработало align-items.*/
@@ -269,47 +268,43 @@
 
 /*секция с информацией об аукционе*/
 .about {
-  width: 1052px;
+  margin-left: 24px;
+  margin-right: 24px;
   display: grid;
   grid-template-columns: 351px 701px;
-  grid-row: 1/3;
-  align-self: start;
+  grid-template-rows: auto;
 }
 
 /*класс для колонок*/
 .about__column {
-  width: 693px;
-  padding-top: 3px;
-  margin-left: 34px;
   display: flex;
   flex-direction: column;
+  align-content: flex-end;
   gap: 100px;
-  align-self: self-start;
 }
 
 /*контейнер с логотипом*/
 .about__logo {
+  padding: 63px 46px;
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 72px;
   width: 240px;
   height: 240px;
-  padding: 63px 46px;
-  margin-top: 32px;
-  margin-left: 37px;
-  display: grid;
+  
   border-radius: 50%;
-  align-content: space-between;
   background-color: #000;
 }
 
 /*изображение логотипа*/
 .about__logo-image {
   width: 148px;
-  height: 114px;
 }
 
 /*заголовок секции*/
 .about__title {
+  margin-top: 136px;
   width: 291px;
-  margin-top: 134px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -319,6 +314,8 @@
 
 /*блок для текстов секции*/
 .about__text {
+  margin-bottom: 13px;
+  margin-right: 5px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -330,7 +327,7 @@
 
 /* Подвал */
 .footer {
-  margin: 180px 50px 88px;
+  margin: 168px 50px 88px;
   display: flex;
   justify-content: space-between;
   font-size: 18px;
