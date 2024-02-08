@@ -271,7 +271,7 @@
   margin-left: 24px;
   margin-right: 24px;
   display: grid;
-  grid-template-columns: 351px 701px;
+  grid-template-columns: 359px 693px;
   grid-template-rows: auto;
 }
 
@@ -287,11 +287,10 @@
 .about__logo {
   padding: 63px 46px;
   margin-top: 35px;
-  margin-left: 35px;
-  margin-right: 72px;
+  margin-top: 30px;
+  margin-left: 47px;
   width: 240px;
-  height: 240px;
-  
+  height: 240px;  
   border-radius: 50%;
   background-color: #000;
 }
@@ -303,6 +302,7 @@
 
 /*заголовок секции*/
 .about__title {
+  width: 291px;
   margin-top: 136px;
   width: 291px;
   font-size: 40px;
