@@ -287,10 +287,9 @@
 .about__logo {
   padding: 63px 46px;
   margin-top: 35px;
-  margin-top: 35px;
   margin-left: 47px;
   width: 240px;
-  height: 240px;  
+  height: 240px;
   border-radius: 50%;
   background-color: #000;
 }
@@ -304,7 +303,6 @@
 .about__title {
   width: 291px;
   margin-top: 136px;
-  width: 291px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
