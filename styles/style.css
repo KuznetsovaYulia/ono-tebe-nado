@@ -75,7 +75,7 @@
 .cover {
   width: 1100px;
   position: relative;
-  padding: 165px 50px 50px 50px;
+  padding: 165px 50px 51px 50px;
   background: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -109,7 +109,7 @@
 .cover__description {
   position: relative;
   z-index: 1;
-  margin-top: 135px;
+  margin-top: 129px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -134,7 +134,8 @@
 }
 
 .aligned-text_center {
-  padding-right: 27px;
+  padding-top: 10px;
+  padding-right: 29px;
   display: block;
   box-sizing: content-box;
   text-align: center;
@@ -156,7 +157,7 @@
 
 /*Кнопка*/
 .bet-button {
-  padding: 12px 32px;
+  padding: 11px 32px;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 500;
@@ -176,7 +177,7 @@
 /*заголовок секции*/
 .lots__heading {
   margin-left: 40px;
-  margin-bottom: 27px;
+  margin-bottom: 20px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -270,13 +271,12 @@
 .about {
   margin-left: 24px;
   margin-right: 24px;
-  display: grid;
-  grid-template-columns: 359px 693px;
-  grid-template-rows: auto;
+  display: flex;
 }
 
 /*класс для колонок*/
 .about__column {
+  margin-right: 72px;
   display: flex;
   flex-direction: column;
   align-content: flex-end;
@@ -288,6 +288,9 @@
   padding: 63px 46px;
   margin-top: 35px;
   margin-left: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 240px;
   height: 240px;
   border-radius: 50%;
@@ -301,7 +304,7 @@
 
 /*заголовок секции*/
 .about__title {
-  width: 291px;
+  display: flex;
   margin-top: 136px;
   font-size: 40px;
   font-weight: 700;
@@ -312,9 +315,8 @@
 
 /*блок для текстов секции*/
 .about__text {
-  margin-bottom: 13px;
-  margin-right: 5px;
-  display: flex;
+  width: 693px;
+   display: flex;
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
@@ -325,7 +327,8 @@
 
 /* Подвал */
 .footer {
-  margin: 168px 50px 88px;
+  margin: 180px 50px 88px;
+
   display: flex;
   justify-content: space-between;
   font-size: 18px;
@@ -343,7 +346,6 @@
 
 /*блок навигации по списку ссылок*/
 .footer__menu {
-  width: 149px;
   display: flex;
   flex-direction: column;
   align-items: center;
