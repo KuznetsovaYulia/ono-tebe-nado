@@ -217,10 +217,10 @@
   padding: 51px 40px 48px;
   position: relative;
   width: 334px;
-  height: 563px;/*точное значение высоты (как нельзя делать). для отступов в карточке между заголовком и текстом чтобы сработало align-items.*/
+  min-height: 563px;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  justify-content: space-between;
   color: #FFF;
 }
 
